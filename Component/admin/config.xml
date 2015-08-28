@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <fields name="params" addfieldpath="/administrator/components/com_livingword/elements">
+	<fieldset name="general_settings"
+		label="General"
+		description=""
+	>
+    <field name="config_global_startdate" type="calendar" default="NOW" filter="server_utc" size="22" format="%Y-%m-%d" label="Select Global Start Date" description="Select Global Start Date. Defaults to current date."></field>
+    <field name="config_bible_version" type="lwbversionselect" default="NLT" label="Select Default Bible Version" description="Select a default bible version to use on your site.  If you select an audio version, you will have the option to display the audio link or display the text link with an audio icon/link to the audio.  Use the Show Audio Icon option."></field>
+    <field name="config_parallel_bible_version" type="lwpversionselect" default="0" label="Select Parallel Bible Version" description="Select an optional parallel bible version to use on your site.  You can select to have two parallel versions displayed for study comparison."></field>
+		<field name="config_show_audio" type="radio" class="btn-group" default="1" label="Show Audio Icon" description="When selecting a Bible version supports both audio and text, select Yes to show an audio icon with text link or No to show only a link to the audio on all displayed pages.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+    <field name="config_altaudio_version" type="lwaversionselect" default="" label="Alternate Audio Bible Version" description="If you choose a default bible version that has no audio version available, you can select a alternate version to use."></field>
+    <field name="config_audio_version" type="hidden" default="0"></field>
+    <field name="config_bible_plan" type="lwbplanselect" default="comp" label="Select Default Reading Plan" description="Select Default Reading Plan."></field>
+		<field name="config_plan_template" type="radio"	class="btn-group" default="calendar" description="Template to use when displaying full plan view" label="Plan Template" >
+			<option value="default">List</option>
+			<option value="calendar">Calendar</option>
+		</field>
+		<field name="config_enable_email" type="radio" class="btn-group" default="1" label="Enable Email" description="Enable email of daily readings. Requires the LivingWord plugin to be installed / enabled.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+    <field name="config_global_emailsend" type="text" default="" label="Global Email Send Time" description="Time of day (24 hour format HH:MM) that daily reading emails will be sent.  The accuracy of this is dependant upon how busy your site is. To improve accuracy, create a CRON job on your webhost CPanel with the following command:  '/usr/bin/wget -O - -q -t 1 &quot;http://{YOUR WEBSITE URL}/index.php&quot; &gt;/dev/null 2&gt;&amp;1'.  Set the 'Minute' time increment to '*/5' and all other time settings of this job to '*'.  This will simulate a website visit every 5 minutes.  Leave blank to disable this feature."></field>
+		<field name="config_show_print" type="radio" class="btn-group" default="1" label="Show Print Icon" description="Show print icon on View Full Plan page.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="config_show_ical" type="radio"	class="btn-group" default="1" label="Show iCalendar Icon" description="Show iCalendar icon on View Full Plan page.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="config_show_bookmarks" type="radio"	class="btn-group" default="1" label="Show Bookmarks Icon" description="Show social bookmarks icon on View Full Plan page.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="config_show_credit" type="radio"	class="btn-group" default="1" label="Show Developer Credit" description="Show developer credit at bottom of component frontend.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="config_show_rss" type="radio"	class="btn-group" default="1" label="Show RSS Icon" description="Show RSS icon at bottom of component frontend.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="config_use_gb" type="radio"	class="btn-group" default="1" label="Use Squeezebox Effect" description="Select to use Squeezebox popup effect or standard browser.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+  </fieldset>
+	<fieldset name="menu_settings"
+		label="Menu Settings"
+		description=""
+	>
+		<field name="config_show_menu" type="radio"	class="btn-group" default="1" label="Show LivingWord menu" description="Show LivingWord menu.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="config_moduleclass_sfx" type="radio"	class="btn-group" default="1" label="Use Alternate Menu Module Class Suffix" description="By default LivingWord uses your templates MAINLEVEL CSS menu module class. To define an alternative class the LivingWord CSS contains a MAINLEVELALT definition to use.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+	</fieldset>
+	<fieldset name="integration" label="Integration" description="Twitter status can be updated with the daily Bible readings and made available to followers.  This requires that you create a Twitter app via https://dev.twitter.com/apps/new.  After creating the app, you will be provided with the information needed to complete the configuration settings below.">
+		<field name="config_enable_twitter" type="radio"	class="btn-group" default="0" label="Enable Twitter Status Updates" description="Enable updating of Twitter status of daily readings. Requires the LivingWord plugin to be installed / enabled.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="config_twitter_ck" type="text" size="50" default="" label="Twitter App Consumer Key" description="Twitter App Consumer Key"></field>
+		<field name="config_twitter_cs" type="text" size="50" default="" label="Twitter App Consumer Secret" description="Twitter App Consumer Secret"></field>
+		<field name="config_twitter_at" type="text" size="50" default="" label="Twitter App Auth Token" description="Twitter App Auth Token"></field>
+		<field name="config_twitter_as" type="text" size="50" default="" label="Twitter App Auth Secret" description="Twitter App Auth Secret"></field>
+		<field name="config_twitter_shortutl" type="list" default="1" label="Twitter Short URL Service" description="Twitter limits the length of posts.  Choose a short url service to use to shorten the post length.">
+			<option value="0">tinyurl.com</option>
+			<option value="1">is.gd</option>
+			<option value="1">u.nu</option>
+		</field>
+	</fieldset>
+  </fields>
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL">
+		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" validate="rules" filter="rules" component="com_livingword" section="component" />
+	</fieldset>
+</config>

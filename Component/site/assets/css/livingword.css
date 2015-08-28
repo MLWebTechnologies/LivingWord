@@ -1,0 +1,248 @@
+    /* Pagination */
+    span.pagelinks,
+    #limit,
+    #counter {
+      font-weight: bold;      
+      font-size:x-small;     
+      padding:0px;
+      margin:0px;
+    }
+    #counter2 {
+      float: right;
+    }
+    span.pagelinks li.pagination-start,
+    span.pagelinks li.pagination-start span,
+    span.pagelinks li.pagination-next,
+    span.pagelinks li.pagination-end,
+    span.pagelinks li.pagination-prev {
+      padding:1px;
+      margin:0px;
+    }
+    span.pagelinks ul,
+    span.pagelinks ul li {
+      float: left;
+      list-style-type: none;
+    	display:inline-block;
+    	padding:1px;
+    	margin:0px;
+    	border:solid 0px #ccc;
+    	overflow:hidden;
+      font-weight: bold;      
+    }
+    span.pagelinks ul li a
+    {
+    	border:solid 1px #ccc; 
+    	display:inline; 
+    	padding-right:2px; 
+    	text-decoration:none;
+      font-weight: bold;      
+    }
+    table.planlist,
+    table.toollist,
+    table.planlistcal,
+    table.planlistpage {
+    	width: 100%;
+    	border-spacing: 1px;
+    }
+    table.planlist a:link,
+    table.planlist a:visited,
+    table.planlist a:hover,
+    table.planlistcal a:link,
+    table.planlistcal a:visited,
+    table.planlistcal a:hover {
+/*      color: #ffffff;*/
+    }
+    table.planlist td,
+    table.planlistcal td,
+    table.planlist th,
+    table.planlistcal th { padding: 4px; }
+    table.planlist thead tr,
+    table.planlist thead th,
+    table.planlistcal thead tr,
+    table.planlistcal thead th {
+    	text-align: center;
+/*    	background: #610B0B;*/
+/*    	color: #666;*/
+    	border-bottom: 1px solid #999;
+    	border-top: 1px solid #fff;
+    	border-right: 1px solid #fff;
+    	border-left: 1px solid #fff;
+    }
+    table.planlist tbody tr { 
+      text-align: left; 
+/*      background-color: #ddd;*/
+    }
+    table.planlistcal tbody tr { 
+      text-align: left; 
+/*      background-color: #eee;*/
+    }
+    table.planlist tbody tr.odd { 
+/*      background-color: #eee;*/
+    }
+    table.planlist tbody tr.even { 
+      background-color: #eee;
+    }
+    table.planlist tbody tr td, 
+    table.toollist tbody tr td, 
+    table.planlistcal tbody tr td { 
+      height: 20px;
+      vertical-align: middle; 
+      border: 1px solid #ccc; 
+    }
+    table.planlist tbody tr.row1 td { 
+      border-top: 1px solid #fff; 
+    }
+    table.planlistpage td.calpagenext {
+/*      background-color: #610B0B;*/
+    }
+    table.planlistpage td.calpageprev {
+/*      background-color: #610B0B;*/
+    }
+    table.planlistpage td.calpageprev {
+/*      background-color: #610B0B;*/
+    }
+    table.planlistpage td.calmonname {
+      text-align:center;
+/*      background-color: #610B0B;*/
+    }
+    table.planlistcal tbody tr.caldayname {
+      text-align:center;
+/*      background-color: #610B0B;*/
+    }
+    table.planlistcal tbody td.calreadinglink {
+      width: 14%;
+      height: 70px;
+      font-size: x-small;
+      display: table-cell;
+      vertical-align: top;
+      text-align: center;
+    }
+    table.planlistcal tbody td.calreadinglink a.modal {
+      text-decoration:none;
+    }
+    table.planlistcal tbody span.caldaynum {
+      background-color: #fff;
+      border: solid 1px;
+      padding: 1px;
+      margin: -5px 0 0 -5px;
+      display: block;
+      width: 12px;
+      text-align: center;
+    }
+    table.planlistcal tbody td.blankday {
+/*      background-color: #eee;*/
+    }
+    table.planlist tbody td.curdate,
+    table.planlistcal tbody td.curdate {
+      border: solid 1px #ccc;
+      background-color: #ddd; 
+      color: #000;
+      font-weight: bold
+    }
+    table.planlist tbody td.curlink,
+    table.planlistcal tbody td.curlink {
+      background: #ccc;
+    }
+    table.planlist tbody td.curlink a:link,
+    table.planlist tbody td.curlink a:visited,
+    table.planlist tbody td.curlink a:hover,
+    table.planlistcal tbody td.curlink a:link,
+    table.planlistcal tbody td.curlink a:visited,
+    table.planlistcal tbody td.curlink a:hover {
+      color: #000;
+    }
+    div.pagefooter { 
+      border-top: 1px solid #999; 
+      text-align: center; 
+    }
+    table.planlist ul.mod {
+      margin:0px 0px 0px 0px;
+      padding: 0px;
+    }
+    table.planlist ul.mod li,
+    table.toollist ul.mod li {
+      list-style-type: none;
+      margin:4px 2px 0px 4px;
+      padding: 0px;
+    }
+    table.planlist li.modnest {
+      list-style-type: none;
+      margin:0px 0px 0px -12px;
+      padding: 0px;
+    }
+    table.planlist ul.mod img {
+      vertical-align: middle;
+    }
+    table.planlist tbody td.prt {
+/*      background-color: #ffffff;*/
+/*      color: #000000;*/ 
+      border-color: #ccc;
+    }
+    table.planlist thead tr.prt { 
+    	text-align: center;
+/*    	background: #610B0B;*/
+/*    	color: #ffffff;*/
+    	border-bottom: 1px solid #999;
+    	border-top: 1px solid #fff;
+    	border-right: 1px solid #fff;
+    	border-left: 1px solid #fff;
+    }
+    blockquote.msg {
+      margin:   0px;
+      padding:  5px;
+    }
+    fieldset.mod { 
+      border: 1px thin;
+      margin:  10px;
+      padding: 5px;
+      text-align: left;
+      width: auto;
+    }
+    legend#toolbar {
+      padding:  0.5em 0.5em 0.5em 0.5em;
+      border:   1px solid;
+      font-size:90%;
+      text-align:center;
+      vertical-align: bottom;
+    }
+    #lw-menu {
+      float:left; 
+      width:120px;
+      margin:5px 5px 5px 0;
+      background: none repeat scroll 0%;
+    }
+    #lw-menu a.lwmainlevelalt:link,
+    #lw-menu a.lwmainlevelalt:visited {
+    }
+    div.lwimage img {
+      height:140px;
+      width:100px;
+      border: solid 2px;
+      float:right;
+      padding:0;
+      margin:4px 5px 0px 25px;
+    }
+    .article_separator {
+      background:transparent url('../images/separator2.gif') repeat-x scroll center;
+      display:block;
+      height:25px;
+    }
+    div.reading {
+      border:   double;
+      width:    450px;
+/*      background-image: url('../images/reading-bg.jpg');*/
+      background-color: #FFFFF5;
+      text-align: center;
+/*      color: #000000;*/
+    }
+    div.reading ul {
+      text-align: center;
+      list-style-type:none;
+      margin:3px 0px 10px 4px;
+      padding-left:0px;
+    }
+    div.reading a:link,
+    div.reading a:visited,
+    div.reading a:hover {
+/*      color: #000000;*/
+    }
