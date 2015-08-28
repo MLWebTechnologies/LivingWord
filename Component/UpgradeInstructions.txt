@@ -1,0 +1,45 @@
+LivingWord 1.1
+
+If this is an upgrade from an earlier version of LivingWord:
+
+1. Backup the LivingWord DB table
+
+2. Edit the existing livingword.xml file on your site.
+	
+	a) Remove the following lines between the <uninstall> and </uninstall> tags:
+
+		  <queries>
+ 		  <query>DELETE FROM #__livingword</query> 
+		  <query>DROP TABLE #__livingword</query> 
+		  </queries>
+
+	b) Save the changes to the file
+
+
+3. Depending on the version, save the configuration settings:
+	
+	a) Save the lw_config.php file
+
+		* Note:  Do not use this file in place of the new config file but
+				use it as a reference.
+
+	OR
+
+
+	b) Manually copy the settings to a text file for later reference.
+
+
+4. Uninstall the LivingWord component using the normal Joomla component uninstall procedures.
+
+
+5. Install the LivingWord 1.1 component using the normal Joomla component install procedures.
+
+
+6. To complete the installation, open the LivingWord Admin configuration console.
+
+
+7. Reconfigure LivingWord with any custom settings saved in step #3.
+
+
+
+

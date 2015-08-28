@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0.0" client="site" method="upgrade">
+	<name>Daily Bible Reading</name>
+	<author>Mike Leeper</author>
+	<creationDate>May 2014</creationDate>
+	<copyright>(C) 2008-2014 MLWebTechnologies. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>web@mlwebtechnologies.com</authorEmail>
+	<authorUrl>www.mlwebtechnologies.com</authorUrl>
+	<version>3.0.0</version>
+	<description>This module shows the default daily bible reading.</description>
+	<files>
+		<filename module="mod_livingword">helper.php</filename>
+		<filename>mod_livingword.php</filename>
+		<filename>index.html</filename>
+  	<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+    		<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+				<field name="config_show_image" type="radio" default="1" label="Show Bible Image"	description="Show Bible image in module display">
+					<option	value="0">JNo</option>
+					<option	value="1">JYes</option>
+				</field>
+				<field name="config_show_links" type="radio" default="1" label="Show Bible Resource Links"	description="Show Bible resource/tools links in module display">
+					<option	value="0">JNo</option>
+					<option	value="1">JYes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

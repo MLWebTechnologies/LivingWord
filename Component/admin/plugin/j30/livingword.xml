@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- $Id: livingword.xml 17227 2013-10-04 05:17:52Z ml $ -->
+<extension version="3.0" type="plugin" group="system">
+	<name>System - LivingWord</name>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<author>Mike Leeper</author>
+	<authorEmail>web@mlwebtechnologies.com</authorEmail>
+	<authorUrl>http://www.mlwebtechnologies.com</authorUrl>
+	<creationDate>May 2014</creationDate>
+	<copyright>(C) 2008-2014 MLWebTechnologies</copyright>
+	<version>3.0.0</version>
+	<description>When activated, this plugin will automatically send daily scripture readings to users based on user preferences.</description>
+	<files>
+		<filename plugin="livingword">livingword.php</filename>
+	</files> 
+</extension>

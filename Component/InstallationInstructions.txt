@@ -1,0 +1,19 @@
+LivingWord 1.1
+
+If this is an upgrade from an earlier version of LivingWord:
+
+1. Install the LivingWord 1.1 component using the normal Joomla component install procedures.
+
+
+2. Configure LivingWord using the LivingWord Admin component console.
+
+
+3. For Email reminders to function, you must choose to either install and enable the included LivingWord mambot/plugin or to configure a Cron/ job on your webserver to run the included livingword.ext.php file.
+
+a. The mambot/plugin will run once a day based on your site's traffic.  Works well with most websites.  Most times the search engine bots will trigger the LivingWord bot to send its reminders, usually after midnight.
+
+
+b. The components/com_livingword/livingword.ext.php file provides the most flexibility of when to send the email reminders.  It takes more administration however to set up.  It can be launched from a Cron or Task scheduler at a time of your choosing and will run only once a day.
+
+
+
