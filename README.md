@@ -1,6 +1,6 @@
 # LivingWord Component
 
-NEW! Version 3.0.0 for Joomla 3.x!! Version 2.5.2 is still available for Joomla 1.5x-2.5x.  LivingWord is a Joomla bible reading component. Utilizing bible resources from BibleGateway.com, this component offers many bible reading plans, bible versions and translations, and audio versions as well. With the use of an included plugin, users can have their daily readings emailed to them. The daily bible reading module is also available.  
+NEW! Version 3.0.0 for Joomla 3.x!! Version 2.5.0 is still available for Joomla 1.5x-2.5x.  LivingWord is a Joomla bible reading component. Utilizing bible resources from BibleGateway.com, this component offers many bible reading plans, bible versions and translations, and audio versions as well. With the use of an included plugin, users can have their daily readings emailed to them. The daily bible reading module is also available.  
 
 Features include:
 * Bible translations in many different languages
