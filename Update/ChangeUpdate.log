@@ -1,1 +1,24 @@
+1. Copyright and disclaimer
+---------------------------
+This application is opensource software released under the GPL. Please see source code and the LICENSE file.
 
+2. Changelog
+------------
+This is a non-exhaustive changelog for the LivingWord component.
+
+Legend:
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note
+
+
+3.0.1 Release [16-December-2019]
+-----------------------------
+
+# Updated for PHP 7.x compliance
+# Fixed Installation script - category creations
+^ Updated several areas for Joomla 3.9.x interoperability
