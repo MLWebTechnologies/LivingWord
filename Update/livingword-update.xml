@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE updates>
+<updates>
+   <update>
+      <name>LivingWord</name>
+      <description>LivingWord Component</description>
+      <element>com_livingword</element>
+      <type>component</type>
+      <version>2.5.0</version>
+      <infourl title="LivingWord URL">http://www.mlwebtechnologies.com</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/17676/77051/com_livingword250.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>stable</tag>
+      </tags>
+      <maintainer>MLWebTechnologies</maintainer>
+      <maintainerurl>http://www.mlwebtechnologies.com</maintainerurl>
+      <targetplatform name="joomla" version="1.6" />
+   </update>
+   <update>
+      <name>LivingWord</name>
+      <description>LivingWord Component</description>
+      <element>com_livingword</element>
+      <type>component</type>
+      <version>2.5.0</version>
+      <infourl title="LivingWord URL">http://www.mlwebtechnologies.com</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/17676/77051/com_livingword250.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>stable</tag>
+      </tags>
+      <maintainer>MLWebTechnologies</maintainer>
+      <maintainerurl>http://www.mlwebtechnologies.com</maintainerurl>
+      <targetplatform name="joomla" version="1.7" />
+   </update>
+   <update>
+      <name>LivingWord</name>
+      <description>LivingWord Component</description>
+      <element>com_livingword</element>
+      <type>component</type>
+      <version>2.5.0</version>
+      <infourl title="LivingWord URL">http://www.mlwebtechnologies.com</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/17676/77051/com_livingword250.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>stable</tag>
+      </tags>
+      <maintainer>MLWebTechnologies</maintainer>
+      <maintainerurl>http://www.mlwebtechnologies.com</maintainerurl>
+      <targetplatform name="joomla" version="2.5" />
+   </update>
+   <update>
+      <name>LivingWord</name>
+      <description>LivingWord Component</description>
+      <element>com_livingword</element>
+      <type>component</type>
+      <version>3.0.0</version>
+      <infourl title="LivingWord URL">http://www.mlwebtechnologies.com</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19618/159651/com_livingword300.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>stable</tag>
+      </tags>
+      <maintainer>MLWebTechnologies</maintainer>
+      <maintainerurl>http://www.mlwebtechnologies.com</maintainerurl>
+      <targetplatform name="joomla" version="3.0" />
+   </update>
+   <update>
+      <name>LivingWord</name>
+      <description>LivingWord Component</description>
+      <element>com_livingword</element>
+      <type>component</type>
+      <version>3.0.0</version>
+      <infourl title="LivingWord URL">http://www.mlwebtechnologies.com</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19618/159651/com_livingword300.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>stable</tag>
+      </tags>
+      <maintainer>MLWebTechnologies</maintainer>
+      <maintainerurl>http://www.mlwebtechnologies.com</maintainerurl>
+      <targetplatform name="joomla" version="3.1" />
+   </update>
+   <update>
+      <name>LivingWord</name>
+      <description>LivingWord Component</description>
+      <element>com_livingword</element>
+      <type>component</type>
+      <version>3.0.0</version>
+      <infourl title="LivingWord URL">http://www.mlwebtechnologies.com</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19618/159651/com_livingword300.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>stable</tag>
+      </tags>
+      <maintainer>MLWebTechnologies</maintainer>
+      <maintainerurl>http://www.mlwebtechnologies.com</maintainerurl>
+      <targetplatform name="joomla" version="3.2" />
+   </update>
+   <update>
+      <name>LivingWord</name>
+      <description>LivingWord Component</description>
+      <element>com_livingword</element>
+      <type>component</type>
+      <version>3.0.0</version>
+      <infourl title="LivingWord URL">http://www.mlwebtechnologies.com</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19618/159651/com_livingword300.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>stable</tag>
+      </tags>
+      <maintainer>MLWebTechnologies</maintainer>
+      <maintainerurl>http://www.mlwebtechnologies.com</maintainerurl>
+      <targetplatform name="joomla" version="3.3" />
+   </update>
+</updates>
